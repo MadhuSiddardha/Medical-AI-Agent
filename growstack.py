@@ -17,11 +17,11 @@ import os
 import re
 
 # Set up Google Gemini API
-genai.configure(api_key="AIzaSyAiP-PYspe7CfXeJgeeEDtEuSkJCS-uBig")
+genai.configure(api_key="Youre_api_key")
 
 # Email configuration (replace with your details)
-EMAIL_ADDRESS = "gantihemanth143@gmail.com"
-EMAIL_PASSWORD = "eqtj mltm wzxp uygs"  # Use App Password if using Gmail
+EMAIL_ADDRESS = "Yure_mail"
+EMAIL_PASSWORD = "Youre_app_password"  # Use App Password if using Gmail
 
 # Function to extract text from an image using Tesseract OCR
 def extract_text_from_image(image):
